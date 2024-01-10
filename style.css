@@ -1,0 +1,67 @@
+/* In Here we set marginand padding 0 for overall css */
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+ /* In this css code, We set backgound color and put our text in center. */
+body{
+    background-color: #ED9B40;
+    text-align: center;
+
+   
+}
+
+/* Now we are going to styling our container  */
+
+.container{
+    height: 70vh;
+    display: flex;
+    margin-top: 7vmin;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Now we are going to styling btn-game class for button */
+.btn-game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5vmin;
+   
+    
+}
+/* Here we styling each of the button  */
+.box{
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 1rem;
+    border: none;
+    color: #4B543B;
+    font-size: 8vmin;
+    background-color: #D0CFEC;
+}
+
+/* This css code is for reset button styling */
+#reset{
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #1E212B;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+}
+
+.msg-class{
+    color: #381D2A ;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.hide{
+    display: none;
+}
